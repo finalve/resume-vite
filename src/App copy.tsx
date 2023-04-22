@@ -13,7 +13,6 @@ import {
   StepLabel,
   Card,
   CardContent,
-  Container
 } from "@mui/material";
 
 import myPhoto from "./assets/profile.jpg";
@@ -31,7 +30,7 @@ import {
 
 function App() {
   return (
-    <Container>
+    <>
      <Stack direction={{ xs: "column", sm: "row" }} spacing={1}>
       <Box flex={2} bgcolor={alpha("#212121", 0.25)} borderRadius={1}>
         <Box
@@ -337,7 +336,7 @@ function App() {
         </Card>
       </Box>
     </Stack>
-    </Container>
+    </>
   )
 }
 
