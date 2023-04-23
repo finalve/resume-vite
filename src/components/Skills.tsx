@@ -61,7 +61,7 @@ function Skills() {
         setValue(newValue);
       };
   return (
-    <Box sx={{ my: 10 ,bgcolor:alpha('#212121',0.5),borderRadius:5 }}>
+    <Box sx={{ my: 10 ,bgcolor:alpha('#212121',0.1),borderRadius:5 }}>
       <Stack direction={{ xs: "column", md: "row" }}>
         <Box flex={4} justifyContent={"center"} my={2} pl={2}>
           <Box my={3} >
