@@ -15,7 +15,6 @@ import {
   CardContent,
 } from "@mui/material";
 
-import myPhoto from "../assets/profile.jpg";
 import {
   LocationOn,
   Email,
@@ -28,9 +27,10 @@ import {
   RecordVoiceOver,
 } from "@mui/icons-material";
 
+import myPhoto from "../assets/profile.jpg";
 function Dashboard() {
   return (
-    <Stack direction={{ xs: "column", sm: "row" }} spacing={1}>
+    <Stack direction={{ xs: "column", sm: "row" }} spacing={1} sx={{ my: 10 }}>
       <Box flex={2} bgcolor={alpha("#212121", 0.25)} borderRadius={1}>
         <Box
           display={"flex"}
@@ -50,7 +50,7 @@ function Dashboard() {
           <List>
             <ListItem alignItems="flex-start">
               <ListItemText>
-                <Typography variant="h4">PERSONAL PROFILE</Typography>
+                <Typography fontWeight={500} variant="h4">PERSONAL PROFILE</Typography>
                 <Divider></Divider>
               </ListItemText>
             </ListItem>
@@ -97,7 +97,7 @@ function Dashboard() {
           <List>
             <ListItem alignItems="flex-start">
               <ListItemText>
-                <Typography variant="h4">EDUCATION</Typography>
+                <Typography fontWeight={500} variant="h4">EDUCATION</Typography>
                 <Divider></Divider>
               </ListItemText>
             </ListItem>
@@ -133,7 +133,7 @@ function Dashboard() {
           <List>
             <ListItem alignItems="flex-start">
               <ListItemText>
-                <Typography variant="h4">CONTACT</Typography>
+                <Typography fontWeight={500} variant="h4">CONTACT</Typography>
                 <Divider></Divider>
               </ListItemText>
             </ListItem>
@@ -182,7 +182,7 @@ function Dashboard() {
           <List>
             <ListItem alignItems="flex-start">
               <ListItemText>
-                <Typography variant="h4">LANGUAGE</Typography>
+                <Typography fontWeight={500} variant="h4">LANGUAGE</Typography>
                 <Divider></Divider>
               </ListItemText>
             </ListItem>
@@ -208,23 +208,25 @@ function Dashboard() {
           </List>
         </Box>
       </Box>
-      <Box flex={4} bgcolor={"#fafafa"} mb={5}>
-        <Card sx={{ margin: 2 }}>
+      <Box flex={4} mb={5}>
+        <Card sx={{ mb: 3 }}>
           <CardContent>
             <List>
               <ListItem alignItems="flex-start">
                 <ListItemText>
-                  <Typography variant="h4">ABOUT ME</Typography>
+                  <Typography fontWeight={500} variant="h4">ABOUT ME</Typography>
                   <Divider></Divider>
                 </ListItemText>
               </ListItem>
               <List>
                 <ListItem alignItems="flex-start">
                   <ListItemText>
+                    <Typography fontWeight={500} pl={5}>
+                      I am a diligent and persevering software developer with a
+                      strong work ethic.
+                    </Typography>
                     <Typography>
-                      <ListItemIcon></ListItemIcon>I am a diligent and
-                      persevering software developer with a strong work ethic. I
-                      get along well with others and am enthusiastic about
+                      I get along well with others and am enthusiastic about
                       learning new things. I can quickly understand and adapt to
                       different work environments. I am ready to collaborate and
                       contribute to a team, helping to achieve our goals with
@@ -238,12 +240,12 @@ function Dashboard() {
           </CardContent>
         </Card>
 
-        <Card sx={{ margin: 2 }}>
+        <Card sx={{ mb: 3 }}>
           <CardContent>
             <List>
               <ListItem alignItems="flex-start">
                 <ListItemText>
-                  <Typography variant="h4">Skills and Expertise</Typography>
+                  <Typography fontWeight={500} variant="h4">Skills and Expertise</Typography>
                   <Divider></Divider>
                 </ListItemText>
               </ListItem>
@@ -279,12 +281,12 @@ function Dashboard() {
           </CardContent>
         </Card>
 
-        <Card sx={{ margin: 2 }}>
+        <Card sx={{ mb: 3 }}>
           <CardContent>
             <List>
               <ListItem alignItems="flex-start">
                 <ListItemText>
-                  <Typography variant="h4">WORK EXPERIENCE</Typography>
+                  <Typography fontWeight={500} variant="h4">WORK EXPERIENCE</Typography>
                   <Divider></Divider>
                 </ListItemText>
               </ListItem>
