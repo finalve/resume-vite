@@ -45,6 +45,7 @@ import dockericon from "../assets/icon/docker.png";
 import giticon from "../assets/icon/git.png";
 import npmicon from "../assets/icon/npm.png";
 import vsicon from "../assets/icon/vscode.png";
+import unityicon from "../assets/icon/unity.png";
 import * as React from 'react';
 const tools = [
     cmdicon,
@@ -52,6 +53,7 @@ const tools = [
     giticon,
     npmicon,
     vsicon,
+    unityicon,
   ];
 function Skills() {
     const [value, setValue] = React.useState(0);
