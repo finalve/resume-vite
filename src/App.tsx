@@ -11,9 +11,11 @@ import { createTheme } from "@mui/material";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Home from "./components/Home";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
-  const [mode, setMode] = useState<PaletteMode>("light");
+  const [mode, setMode] = useState<PaletteMode>("dark");
   const theme = createTheme({
     palette: {
       mode: mode,
@@ -82,7 +84,11 @@ function App() {
           <section id="resume">
             <Resume />
           </section>
+          <section id="contact">
+            <Contact />
+          </section>
         </Container>
+        <Footer />
       </Box>
     </ThemeProvider>
   );

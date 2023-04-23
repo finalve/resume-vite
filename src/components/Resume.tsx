@@ -31,7 +31,7 @@ import myPhoto from "../assets/profile.jpg";
 function Dashboard() {
   return (
     <Stack direction={{ xs: "column", sm: "row" }} spacing={1} sx={{ my: 10 }}>
-      <Box flex={2} bgcolor={alpha("#212121", 0.25)} borderRadius={1}>
+      <Box flex={2} bgcolor={alpha("#eeeeee", 0.35)} borderRadius={1}>
         <Box
           display={"flex"}
           justifyContent={"center"}

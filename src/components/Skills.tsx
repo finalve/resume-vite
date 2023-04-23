@@ -8,6 +8,7 @@ import {
   Tab,
   Tabs,
   Typography,
+  alpha,
 } from "@mui/material";
 
 import htmlicon from "../assets/icon/html5.png";
@@ -56,17 +57,17 @@ function Skills() {
         setValue(newValue);
       };
   return (
-    <Box sx={{ my: 10 }}>
+    <Box sx={{ my: 10 ,bgcolor:alpha('#212121',0.5),borderRadius:5 }}>
       <Stack direction={{ xs: "column", md: "row" }}>
-        <Box flex={4} justifyContent={"center"} my={2}>
-          <Box my={3}>
-            <Typography variant="h3" fontWeight={500}>
+        <Box flex={4} justifyContent={"center"} my={2} pl={2}>
+          <Box my={3} >
+            <Typography variant="h3" fontWeight={500} style={{textShadow:"0px 0px 3px #FFF"}}>
               What My Programming Skills Included?
             </Typography>
             <Divider />
           </Box>
           <Box>
-            <Typography>
+            <Typography style={{textShadow:"0px 0px 3px #FFF"}}>
               "I excel in coordinating system operations, possess skills in
               designing and developing diverse systems, and am adept at adapting
               and integrating various tools and technologies seamlessly."
@@ -80,7 +81,7 @@ function Skills() {
            
           </Box>
         </Box>
-        <Box flex={4} pl={{ xs: 0, md: 20 }} my={2}>
+        <Box flex={3} pl={{ xs: 0, md: 10 }} py={5} my={2}>
           <Grid container spacing={2}>
             {value === 0 ? skills.map((icon, index) => (
               <Grid item xs={3}  key={index}>

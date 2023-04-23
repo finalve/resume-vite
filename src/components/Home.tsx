@@ -13,7 +13,7 @@ import { Cake, Person, RecordVoiceOver, Work } from "@mui/icons-material";
 import myPhoto from "../assets/profile.jpg";
 function Home() {
   return (
-    <Box
+    <Box mt={7.5}
       sx={{
         backgroundImage: `url(${bgImage})`,
 
@@ -42,7 +42,7 @@ function Home() {
         <List>
           <ListItem alignItems="flex-start">
             <ListItemText>
-              <Typography fontWeight={500} variant="h4">
+              <Typography fontWeight={500} variant="h4" style={{textShadow:"0px 0px 3px #FFF"}}>
                 PERSONAL PROFILE
               </Typography>
               <Divider></Divider>
@@ -55,7 +55,7 @@ function Home() {
                 <Person />
               </ListItemIcon>
               <ListItemText>
-                <Typography>Waleesin Sangarunpaisarn</Typography>
+                <Typography style={{textShadow:"0px 0px 3px #FFF"}}>Waleesin Sangarunpaisarn</Typography>
               </ListItemText>
             </ListItem>
 
@@ -64,7 +64,7 @@ function Home() {
                 <Work />
               </ListItemIcon>
               <ListItemText>
-                <Typography>Backend Deverloper</Typography>
+                <Typography style={{textShadow:"0px 0px 3px #FFF"}}>Backend Deverloper</Typography>
               </ListItemText>
             </ListItem>
 
@@ -73,7 +73,7 @@ function Home() {
                 <Cake />
               </ListItemIcon>
               <ListItemText>
-                <Typography>Birth Day : June 18,1992</Typography>
+                <Typography style={{textShadow:"0px 0px 3px #FFF"}}>Birth Day : June 18,1992</Typography>
               </ListItemText>
             </ListItem>
 
@@ -82,7 +82,7 @@ function Home() {
                 <RecordVoiceOver />
               </ListItemIcon>
               <ListItemText>
-                <Typography>Nationality : Thai</Typography>
+                <Typography style={{textShadow:"0px 0px 3px #FFF"}}>Nationality : Thai</Typography>
               </ListItemText>
             </ListItem>
           </List>

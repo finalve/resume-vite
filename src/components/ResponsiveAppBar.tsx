@@ -74,8 +74,8 @@ function ResponsiveAppBar({ mode, setMode, handle }: any) {
   };
 
   return (
-    <AppBar position="static">
-      <Container maxWidth="xl">
+    <AppBar position="fixed" >
+      <Container maxWidth="lg">
         <Toolbar disableGutters>
           <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
           <Typography
@@ -125,11 +125,21 @@ function ResponsiveAppBar({ mode, setMode, handle }: any) {
                 display: { xs: "block", md: "none" },
               }}
             >
-              {pages.map((page, index) => (
-                <MenuItem key={page} onClick={() => handle.handleScroll(index)}>
-                  <Typography textAlign="center">{page}</Typography>
+              <MenuItem  onClick={handle.handleHome}>
+                  <Typography textAlign="center">HOME</Typography>
                 </MenuItem>
-              ))}
+                <MenuItem  onClick={handle.handleAbout}>
+                  <Typography textAlign="center">ABOUT</Typography>
+                </MenuItem>
+                <MenuItem  onClick={handle.handleSkill}>
+                  <Typography textAlign="center">SKILL</Typography>
+                </MenuItem>
+                <MenuItem  onClick={handle.handleResume}>
+                  <Typography textAlign="center">RESUME</Typography>
+                </MenuItem>
+                <MenuItem  onClick={handle.handleContact}>
+                  <Typography textAlign="center">CONTACT</Typography>
+                </MenuItem>
             </Menu>
           </Box>
           <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
@@ -188,6 +198,7 @@ function ResponsiveAppBar({ mode, setMode, handle }: any) {
             <MaterialUISwitch
               sx={{ m: 1 }}
               onChange={() => setMode(mode === "light" ? "dark" : "light")}
+              defaultChecked 
             />
           </Box>
         </Toolbar>
