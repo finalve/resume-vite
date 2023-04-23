@@ -193,6 +193,8 @@ function ResponsiveAppBar({ mode, setMode, handle }: any) {
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
+            <Button onClick={handle.exportPDF} 
+               sx={{ my: 2, color: "white"}}>PDF</Button>
             <MaterialUISwitch
               sx={{ m: 1 }}
               onChange={() => setMode(mode === "light" ? "dark" : "light")}

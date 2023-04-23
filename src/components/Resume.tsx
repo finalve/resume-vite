@@ -28,7 +28,7 @@ import {
 } from "@mui/icons-material";
 
 import myPhoto from "../assets/profile.jpg";
-function Dashboard() {
+function Resume() {
   return (
     <Stack direction={{ xs: "column", sm: "row" }} spacing={1} sx={{ my: 10 }}>
       <Box flex={2} bgcolor={alpha("#eeeeee", 0.35)} borderRadius={1}>
@@ -340,4 +340,4 @@ function Dashboard() {
   );
 }
 
-export default Dashboard;
+export default Resume;
