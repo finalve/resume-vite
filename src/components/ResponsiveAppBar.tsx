@@ -59,8 +59,6 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
   },
 }));
 
-const pages = ["Home", "About", "Skill", "Resume", "Contact"];
-
 function ResponsiveAppBar({ mode, setMode, handle }: any) {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
     null
