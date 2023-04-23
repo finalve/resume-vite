@@ -22,7 +22,6 @@ import mongoicon from "../assets/icon/mongo.png";
 import reacticon from "../assets/icon/react.png";
 import laravelicon from "../assets/icon/laravel.png";
 import solidityicon from "../assets/icon/solidity.png";
-import React from "react";
 const skills = [
   htmlicon,
   bsicon,
@@ -43,6 +42,7 @@ import dockericon from "../assets/icon/docker.png";
 import giticon from "../assets/icon/git.png";
 import npmicon from "../assets/icon/npm.png";
 import vsicon from "../assets/icon/vscode.png";
+import * as React from 'react';
 const tools = [
     cmdicon,
     dockericon,
@@ -52,7 +52,7 @@ const tools = [
   ];
 function Skills() {
     const [value, setValue] = React.useState(0);
-    const handleChange = (event: React.SyntheticEvent, newValue: number) => {
+    const handleChange = (_event: React.SyntheticEvent, newValue: number) => {
         setValue(newValue);
       };
   return (

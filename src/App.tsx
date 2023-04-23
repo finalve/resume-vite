@@ -4,7 +4,6 @@ import Resume from "./components/Resume";
 import {
   Box,
   Container,
-  Divider,
   PaletteMode,
   ThemeProvider,
 } from "@mui/material";

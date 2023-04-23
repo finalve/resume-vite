@@ -4,7 +4,6 @@ import {
   Stack,
   Typography,
 } from "@mui/material";
-import React from "react";
 import myPhoto from "../assets/BackgroundAbout.png";
 function About() {
   return (

@@ -1,17 +1,13 @@
 import {
   Box,
-  Card,
-  CardContent,
   Divider,
   List,
   ListItem,
   ListItemIcon,
   ListItemText,
-  Stack,
   Typography,
   alpha,
 } from "@mui/material";
-import React from "react";
 import bgImage from "../assets/homePhoto.png";
 import { Cake, Person, RecordVoiceOver, Work } from "@mui/icons-material";
 import myPhoto from "../assets/profile.jpg";
