@@ -20,6 +20,7 @@ import tsicon from "../assets/icon/typescript.png";
 import phpicon from "../assets/icon/php.png";
 import mysqlicon from "../assets/icon/mysql.png";
 import mongoicon from "../assets/icon/mongo.png";
+import nodejsicon from "../assets/icon/nodejs.png";
 import reacticon from "../assets/icon/react.png";
 import laravelicon from "../assets/icon/laravel.png";
 import solidityicon from "../assets/icon/solidity.png";
@@ -33,6 +34,7 @@ const skills = [
   phpicon,
   mysqlicon,
   mongoicon,
+  nodejsicon,
   reacticon,
   laravelicon,
   solidityicon,
