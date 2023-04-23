@@ -9,7 +9,6 @@ import Home from "./components/Home";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { savePDF } from "@progress/kendo-react-pdf";
-import { dark } from "@mui/material/styles/createPalette";
 function App() {
   const [mode, setMode] = useState<PaletteMode>("dark");
   const theme = createTheme({
