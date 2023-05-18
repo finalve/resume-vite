@@ -80,7 +80,7 @@ function ResponsiveAppBar({ mode, setMode, handle }: any) {
             variant="h6"
             noWrap
             component="a"
-            href="/"
+            href="/resume-vite/"
             sx={{
               mr: 2,
               display: { xs: "none", md: "flex" },
