@@ -21,7 +21,12 @@ function App() {
     const element = document.getElementById("resume");
     if (element) {
       if (mode === "dark") element.style.backgroundColor = "#212121";
-      savePDF(element, { paperSize: "A4", scale: 0.5, margin:{ top: 0, left: 0, right: 0, bottom: 0 } });
+      savePDF(element, {
+        paperSize: "A4",
+        scale: 0.5,
+        margin: { top: 0, left: 0, right: 0, bottom: 0 },
+        fileName: "resume.pdf",
+      });
     }
   };
 
@@ -87,7 +92,6 @@ function App() {
           </section>
           <section id="resume">
             <Resume />
-            {/* <ExportPDF/> */}
           </section>
           <section id="contact">
             <Contact />
