@@ -2,6 +2,7 @@
   "name": "resume-vite",
   "private": true,
   "version": "0.0.0",
+  "homepage":"https://finalve.github.io/resume-vite/",
   "type": "module",
   "scripts": {
     "dev": "vite --port 3000",

@@ -4,17 +4,12 @@ import {
   CardMedia,
   Divider,
   Grid,
-  List,
-  ListItem,
-  ListItemIcon,
-  ListItemText,
   Stack,
   Tab,
   Tabs,
   Typography,
   alpha,
 } from "@mui/material";
-import bgImage from "../assets/homePhoto.png";
 import { Cake, Person, RecordVoiceOver, Work } from "@mui/icons-material";
 import myPhoto from "../assets/profile.jpg";
 import { useState } from "react";
@@ -25,12 +20,10 @@ import cplusicon from "../assets/icon/cplus.png";
 import csharpicon from "../assets/icon/csharp.png";
 import jsicon from "../assets/icon/javascript.png";
 import tsicon from "../assets/icon/typescript.png";
-import phpicon from "../assets/icon/php.png";
 import mysqlicon from "../assets/icon/mysql.png";
 import mongoicon from "../assets/icon/mongo.png";
 import nodejsicon from "../assets/icon/nodejs.png";
 import reacticon from "../assets/icon/react.png";
-import laravelicon from "../assets/icon/laravel.png";
 import solidityicon from "../assets/icon/solidity.png";
 const skills = [
   htmlicon,
