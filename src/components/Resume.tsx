@@ -219,7 +219,7 @@ function Resume() {
                                     <Typography fontWeight={500}>EN</Typography>
                                 </ListItemIcon>
                                 <ListItemText>
-                                    <Typography>English: Basic reading skills</Typography>
+                                    <Typography>English: Read-Only</Typography>
                                 </ListItemText>
                             </ListItem>
                         </List>
@@ -279,7 +279,7 @@ function Resume() {
                                         <Step>
                                             <StepLabel>
                                                 Programming languages:  C++, C# , ASP.NET Core, NodeJS, React, React Native,Javascript, Typescript,
-                                                                        Solidity, PHP, Laravel
+                                                                        Solidity,
                                             </StepLabel>
                                         </Step>
                                         <Step>
@@ -337,7 +337,7 @@ function Resume() {
                                         </Step>
                                         <Step>
                                             <StepLabel>
-                                                Developed websites for selling products using various technologies such as NodeJS, ReactJS, Laravel, and ASP .NET Core.
+                                                Developed websites for selling products using various technologies such as NodeJS (Typescript), React (TypeScript), and ASP .NET Core.
                                             </StepLabel>
                                         </Step>
                                         <Step>

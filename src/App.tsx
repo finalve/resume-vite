@@ -5,10 +5,10 @@ import { Box, Container, PaletteMode, ThemeProvider } from "@mui/material";
 import { createTheme } from "@mui/material";
 import About from "./components/About";
 import Skills from "./components/Skills";
-import Home from "./components/Home";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { savePDF } from "@progress/kendo-react-pdf";
+import Home from "./components/Home";
 function App() {
   const [mode, setMode] = useState<PaletteMode>("dark");
   const theme = createTheme({
